@@ -6,5 +6,5 @@ build:
 run: build
 	docker run -t -i -p 2010:2010 -p 5900:5900 $(TAG)
 
-vnc: build
-	docker run -t -i -p 5900:5900 $(TAG) bash
+debug: build
+	docker run -t -i -p 2010:2010 -p 5900:5900 $(TAG) bash

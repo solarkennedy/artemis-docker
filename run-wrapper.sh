@@ -65,6 +65,7 @@ while [ true ]; do
   echo "Screen dump:"
   screendump
   sleep 10s
+  nc -z localhost 2010 || exit 0
 done
 
 wait
