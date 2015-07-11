@@ -21,3 +21,7 @@ make
 * Handle environment vars or something to configure the server (difficulty, etc)
 * More robust error handling?
 * Speed improvements?
+
+# Screenshot
+
+![Artemis Screenshot](https://raw.githubusercontent.com/solarkennedy/artemis-docker/master/screenshot.jpg)
